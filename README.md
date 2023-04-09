@@ -3,17 +3,9 @@ As I was wondering to track my applications' progress, I needed to update the "d
 
 I will upload the script shortly.
 
+
+
 '''python
-import os
-import numpy as np
-from math import *
-import matplotlib.pyplot as plt
-import matplotlib.animation as animation
-
-os.chdir("/Users/andrealandini/Desktop")
-plt.style.use("ggplot")
-
-
 class DB:
     def __init__(self):
 
