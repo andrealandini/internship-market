@@ -5,7 +5,9 @@ I will upload the script shortly.
 
 
 
-'''python
+
+```python
+
 class DB:
     def __init__(self):
 
@@ -21,5 +23,21 @@ class DB:
         self.q = 5
         #db = (d*(1+beta_b)+beta_b*(y1b-q*k))**(-1)*(y2b+qì*k)
         self.db = np.piecewise(self.d, [self.d < self.chi*self.qì*self.k, self.d >= self.chi*self.qì*self.k],
-                        [lambda x: (self.qì*self.k+self.y2b)/(x*(1+self.beta_b)+self.beta_b*(self.y1b-self.q*self.k)), 0])        
-'''
+                        [lambda x: (self.qì*self.k+self.y2b)/(x*(1+self.beta_b)+self.beta_b*(self.y1b-self.q*self.k)), 0])
+
+
+        self.beta_s = .7
+        self.y1s = 10
+        self.y2s = 11
+        self.s = np.linspace(0,self.beta_s*self.y1s/(1+self.beta_s)-.1,100)
+
+        self.ds = (self.beta_s*self.y1s-self.s*(1+self.beta_s))**(-1)*self.y2s
+
+
+
+
+
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
