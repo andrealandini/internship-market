@@ -4,8 +4,6 @@ As I was wondering to track my applications' progress, I needed to update the "d
 I will upload the script shortly.
 
 '''python
-
-
 import os
 import numpy as np
 from math import *
