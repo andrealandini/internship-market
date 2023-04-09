@@ -1,43 +1,22 @@
 # jobscrapers
-As I was wondering to track my applications' progress, I needed to update the "dashboard" of the job offers that were being pubilshed every week. Thus, I decided to build a scraper who could help me to check periodically.
 
-I will upload the script shortly.
+As I was wondering how one should keep up with the constant supply of job offers, I came to the realisation that I needed a way to systematically store the progress of the ongoing applications, instead of randomly apply and hope for the best. Hence, I wrote a "simple" scraper to keep me updated, trying to code as straightforwardly as I could. Of course, I am only starting to experiment the more advanced features of Python, I have considered the idea to implement metaclasses, but there was little to no reason to do so (at least for now). 
 
-
-
+This is what I've done. Now, if there's something I hate, it's the programs lacking a proper explaination, so I want to specify, that you will need to add your details here:
 
 ```python
 
-class DB:
-    def __init__(self):
+'''Insert Here Your Data'''
 
-        self.k = 1
-        self.qì = 6
-        self.chi = .4
-        self.d = np.linspace(0,self.chi*self.qì*self.k,1000)
+EMAIL='YOUR_EMAIL'
+PASSWORD='YOUR_PASSWORD'
+DIRECTORY='YOUR_OUTPUT_FOLDER'
+CHROME_PATH='YOUR_CHROME_DRIVER_PATH'
 
-
-        self.beta_b = .6
-        self.y1b = 10
-        self.y2b = 11
-        self.q = 5
-        #db = (d*(1+beta_b)+beta_b*(y1b-q*k))**(-1)*(y2b+qì*k)
-        self.db = np.piecewise(self.d, [self.d < self.chi*self.qì*self.k, self.d >= self.chi*self.qì*self.k],
-                        [lambda x: (self.qì*self.k+self.y2b)/(x*(1+self.beta_b)+self.beta_b*(self.y1b-self.q*self.k)), 0])
-
-
-        self.beta_s = .7
-        self.y1s = 10
-        self.y2s = 11
-        self.s = np.linspace(0,self.beta_s*self.y1s/(1+self.beta_s)-.1,100)
-
-        self.ds = (self.beta_s*self.y1s-self.s*(1+self.beta_s))**(-1)*self.y2s
-
-
-
-
-
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
 ```
+
+For instance, I considered the output to be destinated in a separated folder, hence the "directory". Furthermore, I used chromedriver: I'm sure you could do better that as far as I'm concerned, you'll need to add your driver path.
+
+This is a simply project so there's literally nothing more. Enjoy. 
+
+P.S. there's a folder with some results that I've obtained. 
