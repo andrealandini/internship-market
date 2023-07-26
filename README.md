@@ -1,23 +1,28 @@
-# jobscrapers
+# Analysis of Internship Job Applications: A Comparative Study of Graduateland, LinkedIn, Indeed, and Gjobs
 
-As I was wondering how one should keep up with the constant supply of job offers, I came to the realisation that I needed a way to systematically store the progress of the ongoing applications, instead of randomly apply and hope for the best. Hence, I wrote a "simple" scraper to keep me updated, trying to code as straightforwardly as I could. Of course, I am only starting to experiment the more advanced features of Python, I have considered the idea to implement metaclasses, but there was little to no reason to do so (at least for now). This is what I've done.
+This report presents the results of a research study conducted to analyze job application trends for entry-level internships on four prominent online platforms - Graduateland, LinkedIn, Indeed, and Gjobs. The primary objective was to gain insights into the application patterns of employers and identify any seasonal trends in internship postings. Data collected included the posting date, company name, and location for each application submitted. The research focused on understanding which platforms offered more internship opportunities and whether there were any discernible patterns in the posting frequency throughout the year.
 
 
-Now, if there's something I hate, it's the programs lacking a proper explaination, so I want to specify, that you will need to add your details here:
+To conduct this research, I applied for a range of entry-level internships across the four online platforms over a specified period. The data collected consisted of the application date, company name, and location for each internship opportunity. Only internships were considered to maintain a consistent focus on entry-level positions.
 
-```python
 
-'''Insert Here Your Data'''
+## Variation in Internship Postings:
+After analyzing the data, it was evident that some employers had a higher number of internship vacancies compared to others. This variation could be attributed to factors such as company size, industry demand, and hiring policies.
 
-EMAIL='YOUR_EMAIL'
-PASSWORD='YOUR_PASSWORD'
-DIRECTORY='YOUR_OUTPUT_FOLDER'
-CHROME_PATH='YOUR_CHROME_DRIVER_PATH'
+## Seasonal Trends:
+A notable observation from the data was a clear increase in internship postings during July, indicating a trend of employers seeking interns for the upcoming quarter. This seasonal pattern may be attributed to the academic calendar, as many students graduate in the spring and seek internships for the summer or fall months.
 
-```
+## Platform Comparison:
+While the research focused on four popular online platforms, it was found that some platforms exhibited more internship opportunities than others. LinkedIn and Indeed, in particular, seemed to offer a wider array of entry-level internships.
 
-For instance, I considered the output to be destinated in a separated folder, hence the "directory". Furthermore, I used chromedriver: I'm sure you could do better that as far as I'm concerned, you'll need to add your driver path.
 
-This is a simply project so there's literally nothing more. Enjoy. 
 
-P.S. there's a folder with some results that I've obtained. 
+
+## Conclusion:
+Based on the data collected and analyzed from Graduateland, LinkedIn, Indeed, and Gjobs, it is evident that certain employers consistently have a higher number of internship vacancies, indicating their ongoing need for intern talent. Additionally, the significant increase in internship postings during July underscores a clear trend of employers hiring interns in preparation for the next quarter. Moreover, LinkedIn and Indeed appear to be more fruitful platforms for finding entry-level internships.
+
+## Recommendations:
+
+Job seekers seeking entry-level internships should pay close attention to the seasonal pattern of increased postings in July. Focusing efforts on LinkedIn and Indeed may lead to a greater number of internship opportunities. Regularly monitoring specific employers with higher internship vacancies can prove beneficial for securing relevant internships.
+
+Note: For a more comprehensive report, additional analysis and statistical methods could be applied to further validate the findings and identify potential correlations.
