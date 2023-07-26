@@ -6,6 +6,10 @@ This report presents the results of a research study conducted to analyze job ap
 To conduct this research, I applied for a range of entry-level internships across the four online platforms over a specified period. The data collected consisted of the application date, company name, and location for each internship opportunity. Only internships were considered to maintain a consistent focus on entry-level positions.
 
 
+![applications](https://github.com/andrealandini/jobscrapers/assets/96867773/d167c712-e19f-443d-83e7-2bcc46203cdf)
+
+
+
 ## Variation in Internship Postings:
 After analyzing the data, it was evident that some employers had a higher number of internship vacancies compared to others. This variation could be attributed to factors such as company size, industry demand, and hiring policies.
 
@@ -15,6 +19,7 @@ A notable observation from the data was a clear increase in internship postings 
 ## Platform Comparison:
 While the research focused on four popular online platforms, it was found that some platforms exhibited more internship opportunities than others. LinkedIn and Indeed, in particular, seemed to offer a wider array of entry-level internships.
 
+![posted](https://github.com/andrealandini/jobscrapers/assets/96867773/2064d2c7-f566-445f-84e1-a234e29ecba4)
 
 
 
